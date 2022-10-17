@@ -59,7 +59,7 @@ body{
     width: 100%;
     display: flex;
 }
-.todo-list-item input{
+/* .todo-list-item input{
 
 }
 .todo-list-item button{
@@ -67,7 +67,7 @@ body{
 }
 .todo-list-item .cancel{
     
-}
+} */
 .todo-list-item div{
     flex-grow: 2;
 }

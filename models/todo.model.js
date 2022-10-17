@@ -6,4 +6,4 @@ let TodoSchema = new Schema({
     done: {type: Boolean, require: true}
 })
 
-module.exports = mongoose.model('Todo', TodoSchema);
+module.exports = mongoose.model('Todo', TodoSchema)
