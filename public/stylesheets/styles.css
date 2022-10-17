@@ -6,23 +6,40 @@
 }
 body{
     background-color: darkslategray;
+    padding: 20px;
 }
-.todo-container{
+/* .comic-container{
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     padding: 20px;
-    width: 600px;
+    margin-top: 5%;
+    width: 60%;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, .1);
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.todo-container{
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    padding: 20px;
+    width: 60%;
+    margin-top: 15%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, .1);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .todo{
-    width: 500px;
+    width: 90%;
 }
 .todo-container h2{
     padding: 10px;
